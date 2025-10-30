@@ -50,7 +50,7 @@ const LoginFace = () => {
       formData.append("email", email);
       formData.append("image", imgFile, "profile.jpg");
 
-      const res = await axios.post("https://face-backend-no39.onrender.com/api/user/login", formData, {
+      const res = await axios.post("https://face-backend-4.onrender.com/api/user/login", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
