@@ -56,7 +56,7 @@ const Register = () => {
       formData.append("image", imgFile, "profile.jpg");
 
       const response = await axios.post(
-        "https://face-backend-2-1712.onrender.com/api/user/register",
+        "https://face-backend-4.onrender.com/api/user/register",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );
